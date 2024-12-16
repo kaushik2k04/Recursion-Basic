@@ -1,0 +1,16 @@
+public class recursionbacktrack{
+    //using back track method
+    public static void print(int i,int n){
+        if(i<1){
+            return ;
+        }
+        print(i-1,5);   //call the function and return it
+        System.out.println(i); //print statemnent comes after the ffunction call
+    }
+    public static void main(String[] args) {
+        {
+            int n=5;
+            print(5,5);
+        }
+    }
+}
